@@ -1,42 +1,39 @@
 <?php
 
-// $num  = 10;
-// $num_02 = "10";
-
-// airthmrtic operator
-// echo($num + $num_02);
-// echo($num - $num_02);
-// echo($num * $num_02);
-// echo($num / $num_02);
-// echo($num % $num_02);
-
-//assignment operator
-
-// $num =-5 ;
-// $num =+59 ;
-// echo($num);
-
-// comparison operator
-
-// echo ($num != $num_02);
-// echo ($num === $num_02);
-// echo ($num >= $num_02);
-//  echo ($num !== $num_02);
-
 // $admin = "Abdullah";
 // $pass = 12345;
-// $admin_02 = "Irfan";
-// $pass_02 = 123456;
+// $admin_02 = "Maaz";
+// $pass_02 = 12346;
 
-// if ($admin == "abdullah" && $pass == 12345 || $admin_02 == "Irfan" && $pass_02 == 123456) {
-//     echo ("Welcome Admin");
-// } else {
-//     echo ("Login Filed");
+// switch ($admin == "Abdullah" && $pass == 12345 || $admin_02 == "Maaz" && $pass_02 == 123456) {
+//     case true:
+//         echo("Welcome");
+//         break;
+
+//     default:
+//     echo("Login Denied");
+//         break;
 // }
 
-// switch {
-//     case "";
-//     break;
+// for ($i = 0; $i < 11; $i++) {
+//     if ($i == 5) {
+//         continue;
+//     }
+//     echo ("<h1>This is For Loop</h1>".$i ." <br>");
+// }
 
-//     default;
+// for ($i = 1; $i <= 5; $i++) {
+//     for ($j = 1; $j <= 3; $j++) {
+//         echo ("ye i hai " . $i . " ye j h  " . $j . "<br>");
+//     }
+
+// }
+
+// $a = 0;
+// while ($a <= 10) {
+//     if ($a = 5) {
+//      break;
+//     }
+//     echo ("<h1>This is While Loop</h1>". $a. "<br>");
+//     $a++;
 // }
